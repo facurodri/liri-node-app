@@ -60,6 +60,7 @@ function concertThis(concert) {
             .then(function (response) {
                 for (var i = 0; i < response.data.length; i++) {
                     console.log("\r");
+                    console.log("Artist/s: " + response.data[i].lineup[0]);
                     console.log("Venue: " + response.data[i].venue.name);
                     var location = response.data[i].venue.city;
                     location += ", " + response.data[i].venue.country;
