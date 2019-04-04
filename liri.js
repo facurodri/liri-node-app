@@ -21,31 +21,19 @@ function switchboard(searched, input) {
             spotifyThis(input);
             break;
         case "do-what-it-says":
-            doIt(input);
+            doIt();
             break;
         default: 
-            console.log("Insert correct option");
+            console.log("Search for a movie by typing 'node liri movie-this [movie]' into terminal");
+            console.log("Search for a concert by typing 'node liri concert-this [band]' into terminal");
+            console.log("Search for a song by typing 'node liri spotify-this-song [song]' into terminal");
+            console.log("Need an Example: type 'node liri do-what-it-says' and see how it works");
+            console.log("Enjoy");
+            
     }
 }
 switchboard(whatIsSearched,userInput);
 
-// // Search movie 
-// if (whatIsSearched === "movie-this") {
-//     movieThis(userInput);
-// }
-// //search for concert
-// if (whatIsSearched === "concert-this") {
-
-//     concertThis(userInput);
-// }
-// //search for song
-// if (whatIsSearched === "spotify-this-song") {
-//     spotifyThis(userInput);
-// }
-
-// if (whatIsSearched === "do-what-it-says") {
-//     doIt();
-// }
 function doIt() {
     fs.readFile("random.txt", "utf8", function (error, data) {
         if (error) {
