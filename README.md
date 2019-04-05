@@ -10,7 +10,8 @@ Directions:
 -----------
 Liri do-what-it-says 
 -------------
-Siri's do-what-it-says is a default method to show you how the app can work! Type 'node liri do-what-it-says' and liri will show you 2 examples of how liri can work.
+Liri's do-what-it-says is a default method to show you how the app can work! Type 'node liri do-what-it-says' and liri will show you 2 examples of how liri can work.
+![2019-04-04 (7)](https://user-images.githubusercontent.com/46499915/55602752-19d84d80-5735-11e9-99ce-6ae59d0abfb8.png)
 
 Concert-this
 -------------
