@@ -14,3 +14,9 @@ You'll see upcoming shows of your band - city, venue, and date.
 In your terminal type: 'node liri concert-this [band]' 
 followed by the name of the artist in the brackets,but no need of actual brackets. 
 Like this example with JBalvin
+![2019-04-04 (4)](https://user-images.githubusercontent.com/46499915/55602164-46d73100-5732-11e9-8bda-284b8805517d.png)
+
+Movie-this 
+-----------
+You can look up all the details you been dying to see! Liri can give you all the information such as rating, plot, actors, and Rotten Tomatoe's Rating from IMDB. Just type 'node liri movie-this [movie]' & movie of your choice and it will print out all the info you need!
+Like this example with The Incredibles
